@@ -1,6 +1,6 @@
 FROM python:3.10-slim-buster
 
-&& apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \  # For compiling (gcc, make, etc.)
     wget \           # For downloading ta-lib
     tar \            # For extracting ta-lib
