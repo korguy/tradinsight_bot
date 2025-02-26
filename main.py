@@ -154,9 +154,20 @@ def main(config):
         else:
             logger.info("HOLD %s", order.symbol)
 
-
-if __name__ == "__main__":
+def mainWrapper():
     import yaml
     config = yaml.safe_load(open('config.yaml', 'r'))
-
     main(config)
+
+
+if __name__ == "__main__":
+    schedule.every().day.at("00:00").do(mainWrapper)
+    schedule.every().day.at("04:00").do(mainWrapper)
+    schedule.every().day.at("08:00").do(mainWrapper)
+    schedule.every().day.at("12:00").do(mainWrapper)
+    schedule.every().day.at("16:00").do(mainWrapper)
+    schedule.every().day.at("20:00").do(mainWrapper)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(60)  # Check every minute
