@@ -1,0 +1,53 @@
+name: "THE SWING"
+short_description: "4h Swing Trading" 
+description: "The 4-hour swing trading strategy for cryptocurrency optimizes technical analysis while minimizing API calls, running every 4 hours upon the closing of a new candle. It uses 10-day historical OHLCV data and incorporates key indicators: 10-EMA & 50-EMA (trend confirmation), RSI (momentum filter), MACD (momentum shifts), and Bollinger Bands (volatility & breakout signals). Entry signals require price closing above 10-EMA with MACD bullish crossover and RSI confirming upward movement, while exit criteria include price dropping below 10-EMA, EMA crossover, RSI overbought levels, or MACD bearish crossover. Risk management involves 3-5% stop-loss, position sizing, and trailing profit targets. The system maintains open trades until an exit signal triggers, ensuring data-driven decisions while reducing noise and unnecessary LLM/API costs."
+target:
+  - BTCUSDT
+  - ETHUSDT
+  - SOLUSDT
+  - XRPUSDT
+technical_analysis:
+  llm:
+    model: "gemini-2.0-flash-thinking-exp-01-21"
+  data:
+    interval: 4h
+    lookback: 60
+  indicators:
+    EMA:
+      timeperiod: 10
+    EMA:
+      timeperiod: 50
+    RSI:
+      timeperiod: 14
+    MACD:
+      fastperiod: 12
+      slowperiod: 26
+      signalperiod: 9
+    BBANDS:
+      timeperiod: 20
+      stddev: 2
+  derivative:
+    interval: 4hour
+    lookback: 60
+    indicators:
+      - open_interest
+      - funding_rate
+      - liquidation
+      - long_short_ratio
+  bitcoin_dominance:
+    days: 15
+sentiment_analysis:
+  llm:
+    model: "gemini-2.0-flash-001"
+  fear_and_greed_index: 15 # days
+  google_trends:
+    keywords:
+      - Bitcoin
+      - Cryptocurrency
+    offset: 7 # days
+  news:
+    offset: 10 # days
+    limit: 50 # number of articles
+management:
+  model: "gemini-2.0-flash-thinking-exp-01-21"
+  parser: "gpt-4o-mini"

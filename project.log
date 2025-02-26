@@ -1,0 +1,299 @@
+2025-02-20 16:58:55,318 - main - INFO - Targets: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT
+2025-02-20 16:59:59,552 - technical_analysis - ERROR - Error during LLM invocation: Expecting value: line 1 column 1 (char 0)
+2025-02-20 16:59:59,571 - technical_analysis - ERROR - Error during LLM invocation: Expecting value: line 1 column 1 (char 0)
+2025-02-20 16:59:59,661 - technical_analysis - ERROR - Error during LLM invocation: Expecting value: line 1 column 1 (char 0)
+2025-02-20 17:00:00,237 - technical_analysis - ERROR - Error during LLM invocation: Expecting value: line 1 column 1 (char 0)
+2025-02-20 17:07:57,868 - main - INFO - Targets: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT
+2025-02-20 17:07:57,869 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-20 17:07:57,869 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-20 17:07:57,869 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-20 17:07:57,870 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-20 17:07:57,870 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-20 17:07:57,872 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-20 17:07:57,872 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-20 17:07:57,873 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-20 17:08:07,845 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-20 17:08:09,743 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-20 17:08:09,769 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-20 17:08:12,737 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-20 17:08:18,271 - technical_analysis - INFO - Finished technical analysis for XRPUSDT
+2025-02-20 17:08:18,476 - technical_analysis - INFO - Finished technical analysis for ETHUSDT
+2025-02-20 17:08:19,377 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-20 17:08:20,011 - technical_analysis - INFO - Finished technical analysis for SOLUSDT
+2025-02-20 17:08:20,160 - main - INFO - Portfolio: {'BTC': '0.00000971', 'ETH': '0.00000000', 'USDT': '53.64747895', 'XRP': '0.11716600'}
+2025-02-20 17:08:20,160 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '96819.16000000'}, {'symbol': 'ETHUSDT', 'price': '2734.84000000'}, {'symbol': 'XRPUSDT', 'price': '2.68420000'}, {'symbol': 'SOLUSDT', 'price': '171.56000000'}]
+2025-02-20 17:17:09,018 - main - INFO - Targets: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT
+2025-02-20 17:17:09,019 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-20 17:17:09,019 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-20 17:17:09,022 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-20 17:17:09,022 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-20 17:17:09,023 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-20 17:17:09,024 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-20 17:17:09,024 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-20 17:17:09,025 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-20 17:17:13,487 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-20 17:17:13,489 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-20 17:17:13,962 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-20 17:17:14,987 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-20 17:17:30,136 - technical_analysis - INFO - Finished technical analysis for SOLUSDT
+2025-02-20 17:17:30,243 - technical_analysis - INFO - Finished technical analysis for XRPUSDT
+2025-02-20 17:17:31,981 - technical_analysis - INFO - Finished technical analysis for ETHUSDT
+2025-02-20 17:17:34,081 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-20 17:17:34,260 - main - INFO - Portfolio: {'BTC': '0.00000971', 'ETH': '0.00000000', 'USDT': '53.64747895', 'XRP': '0.11716600'}
+2025-02-20 17:17:34,261 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '96875.75000000'}, {'symbol': 'ETHUSDT', 'price': '2733.08000000'}, {'symbol': 'XRPUSDT', 'price': '2.68880000'}, {'symbol': 'SOLUSDT', 'price': '171.25000000'}]
+2025-02-20 17:17:41,441 - main - INFO - Orders: [Order(symbol='BTCUSDT', side='HOLD', quantity=None, price=96875.75, take_profit=None, stop_loss=None, reason='The comprehensive analysis indicates a neutral sentiment. Historical price analysis shows a bearish trend with consolidation, mixed derivative insights, and neutral sentiment indicators. No strong buying or selling signals are present.'), Order(symbol='ETHUSDT', side='BUY', quantity=0.02, price=2733.08, take_profit=2790.0, stop_loss=2600.0, reason='ETHUSDT shows a somewhat bullish trend with a promising short-term uptrend, positive technical indicators (above EMA, increasing MACD), and a neutral sentiment score, suggesting potential upside.'), Order(symbol='SOLUSDT', side='SELL', quantity=0.117, price=171.25, take_profit=165.0, stop_loss=178.0, reason='SOLUSDT exhibits a bearish trend, strong bearish technical indicators, negative funding rates, and high long liquidation. Adopting a short position leverages potential downside movement.'), Order(symbol='XRPUSDT', side='HOLD', quantity=0.117166, price=2.6888, take_profit=None, stop_loss=None, reason='XRPUSDT shows mixed indicators with recent bullish momentum offset by mixed derivative indicators and neutral sentiment. Current position should be held until clearer trends manifest.')]
+2025-02-20 17:32:15,268 - main - INFO - Targets: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT
+2025-02-20 17:32:15,369 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-20 17:32:15,369 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-20 17:32:15,370 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-20 17:32:15,370 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-20 17:32:15,370 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-20 17:32:15,371 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-20 17:32:15,371 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-20 17:32:15,372 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-20 17:32:35,065 - technical_analysis - INFO - Finished technical analysis for ETHUSDT
+2025-02-20 17:32:35,124 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-20 17:32:36,314 - technical_analysis - INFO - Finished technical analysis for XRPUSDT
+2025-02-20 17:32:36,991 - technical_analysis - INFO - Finished technical analysis for SOLUSDT
+2025-02-20 17:32:37,096 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-20 17:33:01,312 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-20 18:11:44,786 - main - INFO - Targets: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT
+2025-02-20 18:11:44,874 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-20 18:11:44,874 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-20 18:11:44,875 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-20 18:11:44,875 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-20 18:11:44,875 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-20 18:11:44,875 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-20 18:11:44,875 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-20 18:11:44,876 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-20 18:11:48,174 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-20 18:11:48,430 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-20 18:11:48,516 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-20 18:11:48,530 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-20 18:12:03,397 - technical_analysis - INFO - Finished technical analysis for SOLUSDT
+2025-02-20 18:12:07,631 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-20 18:12:08,047 - technical_analysis - INFO - Finished technical analysis for ETHUSDT
+2025-02-20 18:12:08,380 - technical_analysis - INFO - Finished technical analysis for XRPUSDT
+2025-02-20 18:12:08,521 - main - INFO - Portfolio: {'BTC': '0.00000971', 'ETH': '0.00000000', 'USDT': '53.64747895', 'XRP': '0.11716600', 'SOL': '0.00000000'}
+2025-02-20 18:12:08,522 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '97242.01000000'}, {'symbol': 'ETHUSDT', 'price': '2732.54000000'}, {'symbol': 'XRPUSDT', 'price': '2.70890000'}, {'symbol': 'SOLUSDT', 'price': '172.27000000'}]
+2025-02-20 18:12:19,466 - main - INFO - Orders: [Order(symbol='BTCUSDT', side='SELL', reason='Bearish technical analysis indicates a downtrend and increased risk. Selling to minimize potential losses in a day trading portfolio.', quantity=9.7e-06, price=97144.76799, take_profit=None, stop_loss=None), Order(symbol='ETHUSDT', side='HOLD', reason='Bearish technical analysis suggests caution, but portfolio currently holds no ETH, thus holding current position (no position).', quantity=None, price=None, take_profit=None, stop_loss=None), Order(symbol='XRPUSDT', side='HOLD', reason='Neutral technical analysis and sentiment suggest no strong signal to buy or sell for day trading purposes. Holding current position.', quantity=None, price=None, take_profit=None, stop_loss=None), Order(symbol='SOLUSDT', side='HOLD', reason='Bearish technical analysis suggests caution, but portfolio currently holds no SOL, thus holding current position (no position).', quantity=None, price=None, take_profit=None, stop_loss=None)]
+2025-02-20 18:12:19,531 - main - INFO - SELL order created: BTCUSDT 9.7e-06
+2025-02-20 18:12:19,531 - main - INFO - HOLD ETHUSDT
+2025-02-20 18:12:19,531 - main - INFO - HOLD XRPUSDT
+2025-02-20 18:12:19,531 - main - INFO - HOLD SOLUSDT
+2025-02-20 18:14:25,764 - main - INFO - Targets: BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT
+2025-02-20 18:14:25,844 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-20 18:14:25,844 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-20 18:14:25,844 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-20 18:14:25,845 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-20 18:14:25,846 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-20 18:14:25,846 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-20 18:14:25,847 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-20 18:14:25,847 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-20 18:14:28,310 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-20 18:14:28,451 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-20 18:14:28,462 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-20 18:14:30,744 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-20 18:14:46,457 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-20 18:14:46,577 - technical_analysis - INFO - Finished technical analysis for XRPUSDT
+2025-02-20 18:14:47,536 - technical_analysis - INFO - Finished technical analysis for ETHUSDT
+2025-02-20 18:14:49,510 - technical_analysis - INFO - Finished technical analysis for SOLUSDT
+2025-02-20 18:14:49,646 - main - INFO - Portfolio: {'BTC': '0.00000971', 'ETH': '0.00000000', 'USDT': '53.64747895', 'XRP': '0.11716600', 'SOL': '0.00000000'}
+2025-02-20 18:14:49,646 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '97228.12000000'}, {'symbol': 'ETHUSDT', 'price': '2732.10000000'}, {'symbol': 'XRPUSDT', 'price': '2.70990000'}, {'symbol': 'SOLUSDT', 'price': '172.31000000'}]
+2025-02-20 18:15:05,409 - main - INFO - Orders: [Order(symbol='BTCUSDT', side='SELL', reason='Slightly bearish technical analysis indicates potential downward pressure. Selling to minimize risk for day trading given the analysis and small holding.', quantity=1e-05, price=97228.12, take_profit=None, stop_loss=None), Order(symbol='ETHUSDT', side='HOLD', reason='Neutral to slightly bullish analysis, but negligible quantity in portfolio suggests holding current state.', quantity=None, price=None, take_profit=None, stop_loss=None), Order(symbol='XRPUSDT', side='HOLD', reason='Neutral technical and sentimental analysis suggests holding current position.', quantity=None, price=None, take_profit=None, stop_loss=None), Order(symbol='SOLUSDT', side='HOLD', reason='Bearish technical analysis, but negligible quantity in portfolio suggests holding current state as selling is not impactful.', quantity=None, price=None, take_profit=None, stop_loss=None)]
+2025-02-20 18:15:05,476 - main - INFO - SELL order created: BTCUSDT 1e-05
+2025-02-20 18:15:05,476 - main - INFO - HOLD ETHUSDT
+2025-02-20 18:15:05,476 - main - INFO - HOLD XRPUSDT
+2025-02-20 18:15:05,476 - main - INFO - HOLD SOLUSDT
+2025-02-26 06:06:30,583 - main - INFO - Incomplete orders cleared
+2025-02-26 08:39:13,201 - main - INFO - Strategy: THE SWING
+2025-02-26 08:39:13,201 - main - INFO - Current Time: 2025-02-25T23:39:13.200982+00:00
+2025-02-26 08:39:13,201 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:39:43,379 - main - INFO - Strategy: THE SWING
+2025-02-26 08:39:43,379 - main - INFO - Current Time: 2025-02-25T23:39:43.379108+00:00
+2025-02-26 08:39:43,379 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:41:08,891 - main - INFO - Strategy: THE SWING
+2025-02-26 08:41:08,891 - main - INFO - Current Time: 2025-02-25T23:41:08.891095+00:00
+2025-02-26 08:41:08,891 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:41:43,180 - main - INFO - Strategy: THE SWING
+2025-02-26 08:41:43,180 - main - INFO - Current Time: 2025-02-25T23:41:43.179995+00:00
+2025-02-26 08:41:43,180 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:42:52,881 - main - INFO - Strategy: THE SWING
+2025-02-26 08:42:52,882 - main - INFO - Current Time: 2025-02-25T23:42:52.881673+00:00
+2025-02-26 08:42:52,882 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:43:30,641 - main - INFO - Strategy: THE SWING
+2025-02-26 08:43:30,641 - main - INFO - Current Time: 2025-02-25T23:43:30.641287+00:00
+2025-02-26 08:43:30,641 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:43:36,166 - main - INFO - Strategy: THE SWING
+2025-02-26 08:43:36,166 - main - INFO - Current Time: 2025-02-25T23:43:36.166328+00:00
+2025-02-26 08:43:36,166 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:44:51,449 - main - INFO - Strategy: THE SWING
+2025-02-26 08:44:51,449 - main - INFO - Current Time: 2025-02-25T23:44:51.449458+00:00
+2025-02-26 08:44:51,449 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 08:44:51,572 - main - INFO - Incomplete orders cleared
+2025-02-26 08:44:51,572 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 08:44:51,572 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 08:44:51,573 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 08:44:51,574 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 08:44:51,574 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 08:44:51,575 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 08:44:51,576 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 08:44:51,577 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:08:55,478 - main - INFO - Strategy: THE SWING
+2025-02-26 09:08:55,479 - main - INFO - Current Time: 2025-02-26T00:08:55.478728+00:00
+2025-02-26 09:08:55,479 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:08:55,596 - main - INFO - Incomplete orders cleared
+2025-02-26 09:08:55,596 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:08:55,596 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:08:55,597 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:08:55,597 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:08:55,597 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:08:55,599 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:08:55,599 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:08:55,600 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:14:14,296 - main - INFO - Strategy: THE SWING
+2025-02-26 09:14:14,296 - main - INFO - Current Time: 2025-02-26T00:14:14.296251+00:00
+2025-02-26 09:14:14,296 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:14:14,416 - main - INFO - Incomplete orders cleared
+2025-02-26 09:14:14,417 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:14:14,417 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:14:14,418 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:14:14,418 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:14:14,418 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:14:14,419 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:14:14,420 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:14:14,420 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:17:50,090 - main - INFO - Strategy: THE SWING
+2025-02-26 09:17:50,091 - main - INFO - Current Time: 2025-02-26T00:17:50.090844+00:00
+2025-02-26 09:17:50,091 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:17:50,202 - main - INFO - Incomplete orders cleared
+2025-02-26 09:17:50,202 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:17:50,203 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:17:50,204 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:17:50,204 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:17:50,204 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:17:50,206 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:17:50,206 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:17:50,206 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:18:58,988 - main - INFO - Strategy: THE SWING
+2025-02-26 09:18:58,988 - main - INFO - Current Time: 2025-02-26T00:18:58.988372+00:00
+2025-02-26 09:18:58,988 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:18:59,106 - main - INFO - Incomplete orders cleared
+2025-02-26 09:18:59,106 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:18:59,106 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:18:59,107 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:18:59,107 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:18:59,108 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:18:59,108 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:18:59,110 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:18:59,110 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:19:13,342 - main - INFO - Strategy: THE SWING
+2025-02-26 09:19:13,342 - main - INFO - Current Time: 2025-02-26T00:19:13.342698+00:00
+2025-02-26 09:19:13,343 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:19:13,458 - main - INFO - Incomplete orders cleared
+2025-02-26 09:19:13,458 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:19:13,458 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:19:13,458 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:19:13,460 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:19:13,460 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:19:13,461 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:19:13,462 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:19:13,462 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:19:41,349 - main - INFO - Strategy: THE SWING
+2025-02-26 09:19:41,350 - main - INFO - Current Time: 2025-02-26T00:19:41.349954+00:00
+2025-02-26 09:19:41,350 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:19:41,464 - main - INFO - Incomplete orders cleared
+2025-02-26 09:19:41,465 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:19:41,465 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:19:41,465 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:19:41,465 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:19:41,466 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:19:41,465 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:19:41,466 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:19:41,467 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:20:55,414 - main - INFO - Strategy: THE SWING
+2025-02-26 09:20:55,414 - main - INFO - Current Time: 2025-02-26T00:20:55.414627+00:00
+2025-02-26 09:20:55,414 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:20:55,533 - main - INFO - Incomplete orders cleared
+2025-02-26 09:20:55,534 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:20:55,534 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:20:55,534 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:20:55,535 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:20:55,535 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:20:55,536 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:20:55,537 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:20:55,537 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:21:01,757 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-26 09:21:01,941 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-26 09:21:02,089 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-26 09:21:02,557 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-26 09:24:09,062 - main - INFO - Strategy: THE SWING
+2025-02-26 09:24:09,062 - main - INFO - Current Time: 2025-02-26T00:24:09.062028+00:00
+2025-02-26 09:24:09,062 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 09:24:09,180 - main - INFO - Incomplete orders cleared
+2025-02-26 09:24:09,180 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:24:09,181 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 09:24:09,182 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 09:24:09,183 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 09:24:09,183 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:24:09,183 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 09:24:09,183 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 09:24:09,184 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-26 09:24:10,241 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:24:10,248 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:24:10,253 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:24:10,265 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:24:14,662 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-26 09:24:14,923 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-26 09:24:14,975 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-26 09:24:15,205 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-26 09:25:42,022 - main - INFO - Strategy: THE SWING
+2025-02-26 09:25:42,022 - main - INFO - Current Time: 2025-02-26T00:25:42.022628+00:00
+2025-02-26 09:25:42,023 - main - INFO - Targets: ['BTCUSDT']
+2025-02-26 09:25:42,136 - main - INFO - Incomplete orders cleared
+2025-02-26 09:25:42,136 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:25:42,136 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:25:43,167 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:25:47,785 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-26 09:26:03,862 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-26 09:27:39,085 - main - INFO - Strategy: THE SWING
+2025-02-26 09:27:39,086 - main - INFO - Current Time: 2025-02-26T00:27:39.085734+00:00
+2025-02-26 09:27:39,086 - main - INFO - Targets: ['BTCUSDT']
+2025-02-26 09:27:39,207 - main - INFO - Incomplete orders cleared
+2025-02-26 09:27:39,207 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:27:39,207 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:27:40,215 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:27:44,791 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-26 09:28:02,096 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-26 09:29:11,068 - main - INFO - Strategy: THE SWING
+2025-02-26 09:29:11,068 - main - INFO - Current Time: 2025-02-26T00:29:11.068005+00:00
+2025-02-26 09:29:11,068 - main - INFO - Targets: ['BTCUSDT']
+2025-02-26 09:29:11,189 - main - INFO - Incomplete orders cleared
+2025-02-26 09:29:11,189 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 09:29:11,189 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 09:29:12,173 - technical_analysis - ERROR - Error getting bitcoin dominance: Expecting value: line 1 column 1 (char 0)
+2025-02-26 09:29:17,051 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-26 09:29:45,416 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-26 09:29:46,141 - main - INFO - Portfolio: {'BTC': 0.0, 'USDT': 53.6475}
+2025-02-26 09:29:46,141 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '88469.99000000'}]
+2025-02-26 09:29:53,182 - main - INFO - Orders: [Order(symbol='BTCUSDT', side='HOLD', reason='Bearish technical and sentimental analysis suggests potential further price decrease. Holding USDT to minimize risk and wait for better entry point.', quantity=None, price=None, take_profit=None, stop_loss=None)]
+2025-02-26 09:29:53,183 - main - INFO - HOLD BTCUSDT
+2025-02-26 13:03:25,811 - main - INFO - Strategy: THE SWING
+2025-02-26 13:03:25,812 - main - INFO - Current Time: 2025-02-26T04:03:25.811763+00:00
+2025-02-26 13:03:25,812 - main - INFO - Targets: ['BTCUSDT']
+2025-02-26 13:03:25,922 - main - INFO - Incomplete orders cleared
+2025-02-26 13:03:25,922 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 13:03:25,922 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 13:03:33,106 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-26 19:08:42,229 - main - INFO - Strategy: THE SWING
+2025-02-26 19:08:42,230 - main - INFO - Current Time: 2025-02-26T10:08:42.229679+00:00
+2025-02-26 19:08:42,230 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-26 19:08:42,348 - main - INFO - Incomplete orders cleared
+2025-02-26 19:08:42,349 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-26 19:08:42,349 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-26 19:08:42,350 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-26 19:08:42,350 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-26 19:08:42,351 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-26 19:08:42,351 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-26 19:08:42,351 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-26 19:08:42,352 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT

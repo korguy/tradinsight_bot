@@ -1,0 +1,9 @@
+pytz
+supabase
+langchain_core
+ta-lib
+python-binance
+langchain_openai
+langchain_google_genai
+python-dotenv
+pytrends
