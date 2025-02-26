@@ -164,6 +164,7 @@ def mainWrapper():
 
 if __name__ == "__main__":
     logger.info(f"Starting main at {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    mainWrapper()
     schedule.every().day.at("00:00").do(mainWrapper)
     schedule.every().day.at("04:00").do(mainWrapper)
     schedule.every().day.at("08:00").do(mainWrapper)
