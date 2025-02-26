@@ -24,10 +24,9 @@ TRADING_FEE = {
     "taker": 0.1
 }
 
-BINANCE_BASE_URL = "https://api.binance.com"
+BINANCE_BASE_URL = os.getenv('BINANCE_BASE_URL')
 API_CLIENT = os.getenv('BINANCE_CLIENT_ID')
 API_SECRET = os.getenv('BINANCE_CLIENT_SECRET')
-print(API_SECRET)
 
 def get_current_prices(symbols):
     endpoint = "/api/v3/ticker/price"
