@@ -16,7 +16,7 @@ NAMES = {
     "BTCUSDT": "Bitcoin",
     "ETHUSDT": "Ethereum",
     "SOLUSDT": "Solana",
-    "XRPUSDT": "RIPPLE",
+    "XRPUSDT": "Ripple",
 }
 
 TRADING_FEE = {
@@ -221,10 +221,13 @@ def clear_orders():
     response = requests.get(url, headers=headers, params=params)
     orders = response.json()
 
+    if len(orders) == 0:
+        return
+
     for order in orders:
-        symbol = order['symbol']
-        order_id = order['orderId']
         try:
+            symbol = order['symbol']
+            order_id = order['orderId']
             cancel_order(symbol, order_id)
         except Exception as e:
             print(f"Error canceling order {order_id} for {symbol}: {e}")

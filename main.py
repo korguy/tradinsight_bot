@@ -163,13 +163,15 @@ def mainWrapper():
 
 
 if __name__ == "__main__":
-    schedule.every().day.at("00:00").do(mainWrapper)
-    schedule.every().day.at("04:00").do(mainWrapper)
-    schedule.every().day.at("08:00").do(mainWrapper)
-    schedule.every().day.at("12:00").do(mainWrapper)
-    schedule.every().day.at("16:00").do(mainWrapper)
-    schedule.every().day.at("20:00").do(mainWrapper)
+    logger.info("Starting main", time.strftime("%Y-%m-%d %H:%M:%S"))
+    mainWrapper()
+    # schedule.every().day.at("00:00").do(mainWrapper)
+    # schedule.every().day.at("04:00").do(mainWrapper)
+    # schedule.every().day.at("08:00").do(mainWrapper)
+    # schedule.every().day.at("12:00").do(mainWrapper)
+    # schedule.every().day.at("16:00").do(mainWrapper)
+    # schedule.every().day.at("20:00").do(mainWrapper)
 
-    while True:
-        schedule.run_pending()
-        time.sleep(60)  # Check every minute
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(60)  # Check every minute

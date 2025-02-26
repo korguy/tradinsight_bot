@@ -297,3 +297,27 @@
 2025-02-26 19:08:42,351 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
 2025-02-26 19:08:42,351 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
 2025-02-26 19:08:42,352 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-27 00:40:45,547 - main - INFO - Strategy: THE SWING
+2025-02-27 00:40:45,547 - main - INFO - Current Time: 2025-02-26T15:40:45.547616+00:00
+2025-02-27 00:40:45,547 - main - INFO - Targets: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'XRPUSDT']
+2025-02-27 00:40:45,660 - main - INFO - Incomplete orders cleared
+2025-02-27 00:40:45,660 - technical_analysis - INFO - Starting technical analysis for BTCUSDT
+2025-02-27 00:40:45,660 - technical_analysis - INFO - Starting technical analysis for ETHUSDT
+2025-02-27 00:40:45,661 - technical_analysis - INFO - Starting technical analysis for SOLUSDT
+2025-02-27 00:40:45,662 - technical_analysis - INFO - Starting technical analysis for XRPUSDT
+2025-02-27 00:40:45,662 - sentimental_analysis - INFO - Starting sentimental analysis for BTCUSDT
+2025-02-27 00:40:45,663 - sentimental_analysis - INFO - Starting sentimental analysis for ETHUSDT
+2025-02-27 00:40:45,664 - sentimental_analysis - INFO - Starting sentimental analysis for SOLUSDT
+2025-02-27 00:40:45,664 - sentimental_analysis - INFO - Starting sentimental analysis for XRPUSDT
+2025-02-27 00:40:54,134 - sentimental_analysis - INFO - Finished sentimental analysis for SOLUSDT
+2025-02-27 00:40:54,636 - sentimental_analysis - INFO - Finished sentimental analysis for ETHUSDT
+2025-02-27 00:40:54,774 - sentimental_analysis - INFO - Finished sentimental analysis for BTCUSDT
+2025-02-27 00:40:54,867 - sentimental_analysis - INFO - Finished sentimental analysis for XRPUSDT
+2025-02-27 00:41:10,408 - technical_analysis - INFO - Finished technical analysis for BTCUSDT
+2025-02-27 00:41:11,744 - technical_analysis - INFO - Finished technical analysis for XRPUSDT
+2025-02-27 00:41:12,003 - technical_analysis - INFO - Finished technical analysis for SOLUSDT
+2025-02-27 00:41:13,169 - technical_analysis - INFO - Finished technical analysis for ETHUSDT
+2025-02-27 00:41:14,319 - main - INFO - Portfolio: {'BTC': 0.0, 'ETH': 0.0, 'USDT': 53.6475, 'XRP': 0.1172, 'SOL': 0.0}
+2025-02-27 00:41:14,319 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '87981.65000000'}, {'symbol': 'ETHUSDT', 'price': '2440.20000000'}, {'symbol': 'XRPUSDT', 'price': '2.28090000'}, {'symbol': 'SOLUSDT', 'price': '139.85000000'}]
+2025-02-27 00:41:39,018 - main - INFO - Orders: [Order(symbol='XRPUSDT', side='SELL', reason='Bearish technical analysis and neutral sentiment for XRPUSDT, aiming to minimize risk in a bearish market.', quantity=0.1172, price=2.2809, take_profit=None, stop_loss=2.486)]
+2025-02-27 00:41:39,274 - main - INFO - SELL order created: XRPUSDT 0.1172
