@@ -321,3 +321,4 @@
 2025-02-27 00:41:14,319 - main - INFO - Current Prices: [{'symbol': 'BTCUSDT', 'price': '87981.65000000'}, {'symbol': 'ETHUSDT', 'price': '2440.20000000'}, {'symbol': 'XRPUSDT', 'price': '2.28090000'}, {'symbol': 'SOLUSDT', 'price': '139.85000000'}]
 2025-02-27 00:41:39,018 - main - INFO - Orders: [Order(symbol='XRPUSDT', side='SELL', reason='Bearish technical analysis and neutral sentiment for XRPUSDT, aiming to minimize risk in a bearish market.', quantity=0.1172, price=2.2809, take_profit=None, stop_loss=2.486)]
 2025-02-27 00:41:39,274 - main - INFO - SELL order created: XRPUSDT 0.1172
+2025-02-27 00:49:18,446 - main - INFO - Starting main at 2025-02-27 00:49:18
