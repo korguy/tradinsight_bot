@@ -219,7 +219,9 @@ def clear_orders():
     }
 
     response = requests.get(url, headers=headers, params=params)
+    print(response)
     orders = response.json()
+    
 
     if len(orders) == 0:
         return

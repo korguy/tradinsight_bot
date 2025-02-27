@@ -17,7 +17,7 @@ def get_news_sentiment(symbol, days=7, limit=50):
     # get contents
     tickers = f"Cypto:{symbol.strip('USDT')}"
     time_from = (datetime.utcnow() - timedelta(days=days)).strftime("%Y%m%dT%H%M")
-    url = f'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={tickers}&time_from={time_from}&apikey={os.getenv("ALPHA_VANTAGE_API_KEY")}'
+    url = f'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={tickers}&time_from={time_from}&apikey={os.getenv("ALPHAVANTAGE_API_KEY")}'
     response = requests.get(url)
     response.raise_for_status()
     data = response.json()

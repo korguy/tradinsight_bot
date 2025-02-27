@@ -77,7 +77,7 @@ You are a system that generates structured financial data. Please provide an Ord
 ```
 
 # Notes
-- There is a exchange fee of 0.1% for each transaction.
+- There is a exchange fee of 0.1% for each transaction. Consider it in the quantity.
 - Float precision is 5 decimal places. IGNORE quantity in the porfolio if it's less than 0.00001.
 - Keep in mind that the portfolio is for day trading.
 - The orderbook should consider the balance of the portfolio.
